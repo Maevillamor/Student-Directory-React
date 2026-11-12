@@ -1,17 +1,12 @@
-import './App.css'
-import HeaderContainer from './Components/HeaderContainer'
-import FormContainer from './Components/FormContainer'
-import ListContainer from './Components/ListContainer'
-
+import "./App.css";
+import StudentPage from "./pages/studentpage";
 
 function App() {
   return (
     <>
-      <HeaderContainer />
-      <FormContainer />
-      <ListContainer />
+      <StudentPage />
     </>
-  )
+  );
 }
-  
+
 export default App;
